@@ -1,0 +1,2 @@
+#medium-banner .med-banner -working 
+.med-banner -not working

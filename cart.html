@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="head">
+        <div id="logo">
+        </div>
+        <div id="navbar">
+                <span  class="cross"><i class="fa-solid fa-xmark"></i></span>
+            <li class="pages"><a class="option" href="index.html">Home</a></li>
+            <li class="pages"><a class="option" href="shop1.html">Shop</a></li>
+            <li class="pages"><a class="option" href="#">About Us</a></li>
+            <li class="pages"><a class="option" href="contact.html">Contact Us</a></li>
+            <li class="active"><a href="#"><i class="fa-solid fa-bag-shopping"></i><span class="count"></span></a></li>
+        </div>
+        <div class="mobile">
+            <a class="pages" href="#"><i class="fa-solid fa-bag-shopping"></i><span class="count"></span></a>
+            <span class="bar"><i class="fa-solid fa-bars"></i></span>
+        </div>
+    </div>
+    <h1 class="cart-h1">My Cart</h1>
+    <div class="my-cart">
+        <div class="left">
+            <table>
+            
+                    <tr>
+                        <td><b>Remove</b></td>
+                        <td><b>Products</b></td>
+                        <td><b>Quantity</b></td>
+                        <td><b>Total</b></td>
+                    </tr>
+                    <!-- <tr>
+                        <td><i class="fa-regular fa-circle-xmark remove"></i></td>
+                        <td >Mens Tshirt</td>
+                        <td><input class="increment" type="button" value="+"><input type="text" value="1" readonly><input class="decrement" type="button" value="-"></td>
+                        <td>₹1100</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-regular fa-circle-xmark remove"></i></td>
+                        <td>Mens Tshirt</td>
+                        <td>1</td>
+                        <td>₹1100</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-regular fa-circle-xmark remove"></i></td>
+                        <td>Mens Tshirt</td>
+                        <td>1</td>
+                        <td>₹1100</td>
+                    </tr> -->
+                
+            </table>
+        </div>
+        <div class="right">
+            <div class="one">
+                <h2>Total</h2>
+                 <div class="discount">
+                    <!-- class="striked" -->
+                    <h3></h3> 
+                    <h2></h2>
+                 </div>
+            </div>
+            <hr>
+            <div class="two">
+                <div class="coupon">
+                    <input class="coupon-area" type="text" placeholder="Have a coupon code?">
+                    <input class="apply" type="button" value="Apply">
+                    <!-- <h4 class="coupon-applied">10% discount applied!</h4> -->
+                </div>
+                <h4>FREE Home Delivery</h4>
+                <p>*Price inclusive of all taxes.</p>
+                <input class="checkout" type="button" value="Checkout">
+            </div>
+        </div>
+    </div>
+    <h1 class="cart-h1">Complete your cart</h1>
+    <div id="featured-section" class="featured">
+        <div class="product">
+            <div class="product-img five"></div>
+            <p>adidas</p>
+            <h4>Product name</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+            </div>
+            <h4>₹1200</h4>
+            <div class="cart-button">
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>   
+            </div>
+        </div>
+        <div class="product">
+            <div class="product-img six"></div>
+            <p>adidas</p>
+            <h4>Product name</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+            </div>
+            <h4>₹1200</h4>
+            <div class="cart-button">
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>   
+            </div>
+        </div>
+        <div class="product">
+            <div class="product-img seven"></div>
+            <p>adidas</p>
+            <h4>Product name</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+            </div>
+            <h4>₹1200</h4>
+            <div class="cart-button">
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>   
+            </div>
+        </div>
+        <div class="product">
+            <div class="product-img eight"></div>
+            <p>adidas</p>
+            <h4>Product name</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+            </div>
+            <h4>₹1200</h4>
+            <div class="cart-button">
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>   
+            </div>
+        </div>  
+    </div>
+    <div id="showcase">
+        <div class="usp">
+            <div class="usp-img one"></div>
+            <h4>Free Shipping</h4>
+        </div>
+        <div class="usp">
+            <div class="usp-img two"></div>
+            <h4>Order Online</h4>
+        </div>
+        <div class="usp">
+            <div class="usp-img three"></div>
+            <h4>Save Money</h4>
+        </div>
+
+        <div class="usp">
+            <div class="usp-img four"></div>
+            <h4>Promotions</h4>
+        </div>
+        <div class="usp">
+            <div class="usp-img five"></div>
+            <h4>Happy Sell</h4>
+        </div>
+        <div class="usp">
+            <div class="usp-img six"></div>
+            <h4>24/7 Support</h4>
+        </div>
+    </div>
+    <div id="newsletter">
+        <div class="text">
+            <h1>Sign Up For Newsletters</h1>
+            <p>Get E-mail upadtes about our latest sjop and<span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input class="textbox" placeholder="Your E-mail address"">
+            <input  class="newsletter-btn" type="button" value="Sign Up">
+        </div>
+    </div>
+    <div id="footer">
+        <div class="col1">
+            <div class="logo"></div>
+            <div class="contact">
+                <h4>Contact</h4>
+                <p><span>Address:</span> 7, Rameshwar Guha Street, Dum Dum Cantonment</p>
+                <p><span>Phone:</span> 9038955569</p>
+                <p><span>Hours:</span> 10AM - 7PM (Mon - Fri)</p>
+                <div class="social-icons">
+                    <h4>Follow</h4>
+                    <a href="#" class="fb"><i class="fa-brands fa-facebook"></i></a>
+                    <span class="twitter"></span>
+                    <span class="insta"></span>
+                    <span class="pinterest"></span>
+                    <span class="youtube"></span>
+                </div>
+            </div>
+        </div> 
+        <div class="col2">
+            <h4>About</h4>
+            <span><a href="#">About Us</a></span>
+            <span><a href="#">Delivery Information</a></span>
+            <span><a href="#">Privacy Policy</a></span>
+            <span><a href="#">Terms & Conditions</a></span> 
+            <span><a href="#">Contact Us</a></span> 
+        </div>
+        <div class="col3">
+            <h4>My Account</h4>
+            <span><a href="#">Sign In</a></span>
+            <span><a href="#">View Cart</a></span>
+            <span><a href="#">My Wishlist</a></span>
+            <span><a href="#">Track My Order</a></span> 
+            <span><a href="#">Help</a></span> 
+        </div>
+        <div class="col4">
+            <h4>Install App</h4>
+            <p>From Playstore or Appstore</p>
+            <div class="store-img">
+                <div class="googleplay img"></div>
+                <div class="appstore img"></div>
+            </div>
+            <p>Secured payment gateways</p>
+            <div class="gateway-img"></div>
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="cartjs.js"></script>
+</body>
+</html>
