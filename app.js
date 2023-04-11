@@ -63,7 +63,8 @@ window.addEventListener('click',(e)=>{
                     price=e.target.children[4].innerHTML;
             
                     img=window.getComputedStyle(e.target.children[0]).backgroundImage;
-                     console.log(img);
+                    let ind=img.charAt(img.length-5);
+                     console.log(ind);
             product_view=`<div class="left">
                         <div class="main ${e.target.children[0].classList[1]}" style="background-image:url(img/products/f${img.charAt(41)}.jpg)"></div>
                         <div class="small">
