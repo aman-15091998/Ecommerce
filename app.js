@@ -64,10 +64,10 @@ window.addEventListener('click',(e)=>{
             
                     img=window.getComputedStyle(e.target.children[0]).backgroundImage;
                     console.log(img);
-                    let ind=img.charAt(img.length-5);
+                    let ind=img.charAt(img.length-7);
                      console.log(ind);                                  //
             product_view=`<div class="left">
-                        <div class="main ${e.target.children[0].classList[1]}" style="background-image:url(https://cara-cart.netlify.app/img/products/f${1}.jpg)"></div>
+                        <div class="main ${e.target.children[0].classList[1]}" style="background-image:url(https://cara-cart.netlify.app/img/products/f${ind}.jpg)"></div>
                         <div class="small">
                             <div class="img one"></div>
                             <div class="img two"></div>
