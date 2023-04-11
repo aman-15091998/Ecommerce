@@ -112,7 +112,7 @@ window.addEventListener('click',(e)=>{
                     //  console.log(img.charAt(41));
                     let ind=img.charAt(img.length-7);
             product_view=`<div class="left">
-                        <div class="main" style="background-image:url(https://cara-cart.netlify.app/img/products/f${ind}.jpg)"></div>
+                        <div class="main" style="background-image:url(https://cara-cart.netlify.app/img/products/n${ind}.jpg)"></div>
                         <div class="small">
                             <div class="img one"></div>
                             <div class="img two"></div>
